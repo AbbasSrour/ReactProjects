@@ -1,2 +1,2 @@
 # React Projects
- Repo From My Front End Mentor Solutions
+ Repo for my react projects
