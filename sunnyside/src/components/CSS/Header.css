@@ -1,0 +1,66 @@
+.orange {
+  background-image: url("/src/components/media/desktop/image-header.jpg;
+  height: 100vh;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Navbar {
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  position: relative;
+  top: 3rem;
+}
+
+.Logo {
+  position: relative;
+  left: 5rem;
+  transform: scale(1.2);
+}
+
+.list {
+  position: relative;
+  left: 40rem;
+  border-radius: 12.5;
+}
+
+.Element {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 20px;
+  filter: filter 300ms;
+}
+
+.Element:hover {
+  background-color: rgb(111, 207, 255);
+  text-transform: uppercase;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.Creatives {
+  position: fixed;
+  font-size: 50px;
+  font-family: "Fraunces", serif;
+  font-style: bold;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  color: white;
+  text-transform: uppercase;
+  top: 7rem;
+  left: 25rem;
+}
+
+.arrow {
+  position: absolute;
+  top: 17rem;
+  left: 41rem;
+  fill: white;
+}
