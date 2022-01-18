@@ -1,5 +1,5 @@
 import React from "react";
-// import "../CSS/Header.css";
+import "../CSS/Header.css";
 import Navbar from "../Navbar/Navbar.js";
 import Element from "../Navbar/Element.js";
 import { ReactComponent as Logo } from "../media/logo.svg";
@@ -15,11 +15,15 @@ function Header() {
           <Element name="About" />
           <Element name="Services" />
           <Element name="Projects" />
-          <Element name="Contact" />
+          <a href="x" className="Contact">
+            Contact
+          </a>
         </div>
       </Navbar>
-      <h1 className="Into"> We Are Creatives </h1>
-      <img src={arrow} className="arrow" />
+      <div className="Intro">
+        <h1 className="Creatives"> We Are Creatives </h1>
+        <img src={arrow} className="arrow" />
+      </div>
     </div>
   );
 }

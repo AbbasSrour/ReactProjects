@@ -1,5 +1,5 @@
 .orange {
-  background-image: url("/src/components/media/desktop/image-header.jpg;
+  background-image: url("../media/desktop/image-header.jpg");
   height: 100vh;
   max-width: 100%;
   background-position: center;
@@ -9,6 +9,7 @@
 
 .Navbar {
   font-family: "Barlow", sans-serif;
+  font-family: bold;
   display: flex;
   position: relative;
   top: 3rem;
@@ -26,6 +27,28 @@
   border-radius: 12.5;
 }
 
+.Contact {
+  top: 2rem;
+  margin-left: 1rem;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 20px;
+}
+
+.Contact:hover {
+  background-color: rgb(111, 207, 255);
+  color: white;
+  text-transform: uppercase;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
 .Element {
   color: white;
   text-decoration: none;
@@ -35,7 +58,6 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: 20px;
-  filter: filter 300ms;
 }
 
 .Element:hover {
@@ -45,8 +67,12 @@
   padding-right: 35px;
 }
 
+.Intro {
+  display: relative;
+}
+
 .Creatives {
-  position: fixed;
+  position: relative;
   font-size: 50px;
   font-family: "Fraunces", serif;
   font-style: bold;
@@ -54,13 +80,13 @@
   word-spacing: 10px;
   color: white;
   text-transform: uppercase;
-  top: 7rem;
+  top: 6rem;
   left: 25rem;
 }
 
 .arrow {
-  position: absolute;
-  top: 17rem;
+  position: relative;
+  top: 8.5rem;
   left: 41rem;
   fill: white;
 }

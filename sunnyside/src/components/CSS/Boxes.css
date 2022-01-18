@@ -1,0 +1,201 @@
+.Boxes {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.Boxlayout {
+  display: grid;
+  grid-template-columns: 600px auto;
+  grid-auto-rows: minmax(30pc, 37.5pc);
+}
+
+.egg {
+  background-image: url("/src/components/media/desktop/image-transform.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cup {
+  background-image: url("/src/components/media/desktop/image-stand-out.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cherry {
+  background-image: url("/src/components/media/desktop/image-photography.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.smallOrange {
+  background-image: url("/src/components/media/desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.BoxText {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #fffbf8;
+}
+
+.BoxHeader {
+  align-self: center;
+  width: 60%;
+  text-align: left;
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  font-size: 2.3rem;
+  color: #212f3c;
+}
+
+.BoxParagraph {
+  align-self: center;
+  width: 60%;
+  text-align: left;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #8a878f;
+}
+
+.BoxLinkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.BoxLink {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #20201e;
+  padding: 0 0.7rem;
+  align-self: center;
+  min-width: 60%;
+  text-align: center;
+  z-index: 2;
+}
+
+.BoxLinkDecoration {
+  align-self: center;
+  position: relative;
+  bottom: 0.3rem;
+  width: 30%;
+  height: 0.4rem;
+  transform: translateY(-0.7);
+  border-radius: 0.5rem;
+  background-color: yellow;
+  opacity: 0.5;
+  transition: all 0, 5s ease;
+  z-index: 1;
+}
+
+.BoxLink:hover + .BoxLinkDecoration {
+  width: 35%;
+  opacity: 1;
+}
+
+.BoxLinkPink {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #20201e;
+  padding: 0 0.7rem;
+  align-self: center;
+  min-width: 60%;
+  text-align: center;
+  z-index: 2;
+}
+
+.BoxLinkDecorationPink {
+  align-self: center;
+  position: relative;
+  bottom: 0.3rem;
+  width: 21%;
+  height: 0.4rem;
+  transform: translateY(-0.7);
+  border-radius: 0.5rem;
+  background-color: #ff7464;
+  opacity: 0.5;
+  transition: all 0, 5s ease;
+  z-index: 1;
+}
+
+.BoxLinkPink:hover + .BoxLinkDecorationPink {
+  width: 26%;
+  opacity: 1;
+}
+
+.SecondBoxText {
+  text-align: center;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0.7;
+}
+
+.SecondBoxHeader {
+  align-self: center;
+  width: 60%;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  font-size: 2.3rem;
+  color: #2b6056;
+}
+
+.SecondBoxParagraph {
+  align-self: center;
+  width: 60%;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2b6056;
+}
+
+.SecondBoxHeaderOrange {
+  align-self: center;
+  width: 60%;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  font-size: 2.3rem;
+  color: #18526a;
+}
+
+.SecondBoxParagraphOrange {
+  align-self: center;
+  width: 50%;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #18526a;
+}

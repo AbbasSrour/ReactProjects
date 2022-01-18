@@ -1,0 +1,97 @@
+/* font-family: "Barlow", sans-serif; */
+.MainSection {
+  display: flex;
+  justify-content: center;
+  background-color: #fffbf8;
+}
+
+.TestimonialsGrid {
+  display: grid;
+  grid-template-rows: 35vh 50vh 15vh;
+  height: 100vh;
+  width: 90vw;
+  justify-content: center;
+}
+
+.TestimonialsGridRow1 {
+  display: flex;
+  justify-content: center;
+}
+
+.TestimonialHeader {
+  align-self: flex-end;
+  font-family: "Fraunces", serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: grey;
+  padding-bottom: 3rem;
+}
+
+.TestimonialsGridRow2 {
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+}
+
+.Testimonial {
+  display: grid;
+  grid-template-rows: 30% 30% 30% 10%;
+}
+
+.clientImageSection {
+  display: flex;
+  justify-content: center;
+}
+
+.clientImage {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.clientTestSection {
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+}
+
+.clientTest {
+  color: #616065;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.clientNameSection {
+  padding-top: 4rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.clientName {
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.clientProSection {
+  position: relative;
+  top: -2.5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.clientPro {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: grey;
+  padding-bottom: 5rem;
+}
+
+.TestimonialsGridRow3 {
+  position: relative;
+  top: 5rem;
+}
