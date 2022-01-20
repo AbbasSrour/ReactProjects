@@ -1,0 +1,140 @@
+:root {
+  --SoftBlue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --VeryDarkBlueMain: hsl(217, 54%, 11%);
+  --VeryDarkBlueBG: hsl(216, 50%, 16%);
+  --VeryDarkBlueLine: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+.App {
+  box-sizing: border-box;
+}
+
+.mobile-design {
+  opacity: 1;
+  z-index: -10;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.desktop-design {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: -10;
+  position: absolute;
+  display: none;
+  object-fit: cover;
+}
+
+.container {
+  background-color: var(--VeryDarkBlueBG);
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  opacity: 0.5;
+}
+
+.Card {
+  position: relative;
+  background-color: var(--VeryDarkBlueMain);
+  border-radius: 15px;
+  width: 86%;
+  height: 86%;
+  left: 7%;
+}
+
+.cube {
+  position: relative;
+  width: 86%;
+  height: auto;
+  left: 6%;
+  top: 5%;
+  border-radius: 5%;
+}
+
+.Name {
+  position: relative;
+  top: 6%;
+  left: 7%;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.Info {
+  width: 80%;
+  position: relative;
+  color: var(--SoftBlue);
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 0.7rem;
+  top: 6%;
+  left: 7%;
+  line-height: 1.1rem;
+  word-spacing: 0.1rem;
+}
+
+.coin {
+  position: relative;
+  top: 6.5%;
+  left: 6.5%;
+}
+
+.price {
+  position: relative;
+  color: var(--Cyan);
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  top: -1%;
+  left: 12%;
+}
+
+.clock {
+  position: relative;
+  top: -9%;
+  left: 64%;
+}
+
+@media (min-width: 1400px) {
+  .mobile-design {
+    display: none;
+  }
+  .desktop-design {
+    display: block;
+  }
+  .Card {
+    left: 38%;
+    width: 24%;
+    height: 72%;
+  }
+  .Name {
+    top: 6%;
+    font-size: 1.3rem;
+  }
+  .Info {
+    width: 100%;
+    top: 6%;
+    left: 7%;
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .coin {
+    top: 7.5%;
+  }
+  .price {
+    left: 11%;
+    top: 0.5%;
+    font-size: 1rem;
+  }
+  .clock {
+    top: -6.3%;
+  }
+}
